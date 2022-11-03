@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: linear-gradient(180deg, rgb(78, 189, 233) 10%, rgb(7, 9, 119) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    font-family: "Poppins", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 250%;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 98%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    font-family: "Poppins", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: rgb(13, 1, 122);
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbar ul li a:hover {
+    color: rgb(13, 1, 122);
+    font-weight: bolder;
+}
+
+.content {
+    animation: slide-in 1500ms;
+    color: rgb(42, 42, 42);
+    width: 95%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    margin: 0 45px;
+}
+
+.content h1 {
+    color: rgb(0, 0, 0);
+    font-size: 370%;
+}
+
+.content p {
+    font-size: 125%;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.Footer{
+    width: 100%;
+    margin-top: 755px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.isi{
+    animation: slide-in 1500ms;
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.konfirmasi{
+    margin: 0px 80px 0px 80px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    width: 50px;
+}
+
+.sembuh{
+    margin: 0px 150px 0px 150px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    width: 50px;
+}
+
+.meninggal{
+    margin: 0px 80px 0px 80px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    width: 50px;
+}
+
+.Footer1{
+    width: 100%;
+    margin-top: 450px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
